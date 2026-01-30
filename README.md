@@ -3,7 +3,7 @@
 A premium, responsive personal portfolio website built with modern web standards. This project showcases my skills, featured projects, and professional achievements with a focus on motion, aesthetics, and performance.
 
 ## 🚀 Live Demo
-[View Live Site](https://github.com/AmanMomin2207/Portfolio-Assignment-of-Sankey) (Deployment link if available)
+[View Live Site](https://amanmomin2207.github.io/Portfolio-Assignment-of-Sankey/)
 
 ## ✨ Features
 - **Dynamic Typing Animation**: Interactive header with cycling professional roles.
