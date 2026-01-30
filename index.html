@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <nav>
+            <div class="logo">Portfo<span class="highlight">lio.</span></div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="active">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">
+                <span class="icon">☀︎</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span class="gradient-text">Aman Momin</span></h1>
+                    <h2 class="typing-container">I am a <span id="typing-text"></span><span class="cursor">|</span></h2>
+                    <p class="hero-description">
+                        Building premium digital experiences with a focus on motion, aesthetics, and performance.
+                    </p>
+                    <a href="#contact" class="btn primary-btn">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be loaded from JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-list">
+                    <div class="achievement-item">
+                        <span class="year">2025</span>
+                        <div class="details">
+                            <h3>GDG Organizer – Google Developer Group (GDG) | JJMCOE</h3>
+                            <p>As a GDG Lead at JJMCOE, I organized developer-focused events, workshops, and hackathons, fostering a strong local tech community.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="year">2025</span>
+                        <div class="details">
+                            <h3>Java (Golden) Certificate from NPTEL</h3>
+                            <p>Successfully completed the NPTEL Java course with a Golden Certificate, demonstrating proficiency in core programming concepts and object-oriented principles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent! (Mock action)');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Aman Momin. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/aman-momin-b093a0366">LinkedIn</a>
+                    <a href="https://github.com/AmanMomin2207">GitHub</a>
+                    <a href="https://leetcode.com/u/aman7860/">Leetcode</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
